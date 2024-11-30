@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMT</title>
+    <link rel="stylesheet" href="../CSS/Productos.css">
+    <link rel="stylesheet" href="../CSS/loader.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/calendario.css">
+    <link rel="stylesheet" href="../CSS/buttonHome.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
+</head>
+
+<body>
+    <div class="box-loader" id="loader-box">
+        <div class="loader">
+            <div class="loader-1"></div>
+            <div class="loader-2"></div>
+        </div>
+    </div>
+    <nav id="navbar">
+        <a href="../index.html" id="logo"><img src="../resources/logos/logo-IMT.png"></a>
+        <button id="menu-navbar" class="button-navbar"><img src="../resources/logos/logo-menu.png"></button>
+        <div id="navbar-right">
+            <a href="../index.html">Inicio</a>
+            <a href="../Html/Nosotros.html">Nosotros</a>
+            <a href="../Html/educDeCalidad.html">Educación de Calidad</a>
+            <a class="active" href="../Html/Productos.html">Productos</a>
+            <a href="../Html/Contact.html">Contactos</a>
+        </div>
+    </nav>
+    <div class="space-navbar"></div>
+    <header class="portada">
+        <div class="titulo">
+            <p>Kits Educativos</p>
+        </div>
+    </header>
+    <section class="kitsEducativos">
+        <div class="kitsEducativos-box">
+            <p>Aquí en este apartado se observaría lo que son los kit de educación los cuales nosotros podemos ofrecer
+                para usted, los cuales contienen los kits de: <br>
+                Inicial (Juegos sencillos) <br>
+                Primaria (Matematica basica) <br>
+                Secundaria (Juegos como ajedres) <br>
+                Estos kits ayudaran a influenciar la creatividad y conocimientos los cuales le podran ayudar en el
+                futuro </p>
+        </div>
+    </section>
+    <section class="kitEducativo1">
+        <div class="kitEducativo-title">
+            <p>Kit de Inicial</p>
+        </div>
+        <div class="kitEducativo-box">
+            <div class="kitEducativo-cart">
+                <img src="../resources/img/kitsEducativos/producto-Inicial.png">
+                <p>Nostros podremos brindar lecturas para los estudiantes de inicial con motivo de que ellos puedan leer
+                    y apender lo basico de la comprension lectora y saber el significado de algunas palabras las cuales
+                    ellos no entiendan brindadoles un diccionario.</p>
+            </div>
+        </div>
+    </section>
+    <section class="kitEducativo2">
+        <div class="kitEducativo-title">
+            <p>Kit de Primaria</p>
+        </div>
+        <div class="kitEducativo-box">
+            <div class="kitEducativo-cart">
+                <img src="../resources/img/kitsEducativos/producto-Primaria.png">
+                <p>Esta maquina es una maquina de aprendizaje el cual su proposito es el de enseñarnos a usar las
+                    matematicas utilizando operaciones basicas (suma, resta) y que esto les ayuda a los estudiantes a
+                    aprender para que sirve el signo + y el signo - respectivamente.</p>
+            </div>
+        </div>
+    </section>
+    <section class="kitEducativo3">
+        <div class="kitEducativo-title">
+            <p>Kit de Secundaria</p>
+        </div>
+        <div class="kitEducativo-box">
+            <div class="kitEducativo-cart">
+                <img src="../resources/img/kitsEducativos/producto-Secundaria.png">
+                <p>El ajedrez es un juego el cual fomentar la estrategia y imaginacion debido a que puedes crear jugadas
+                    creativas y obviamente estrategicas con tal de evitar perder contra el contrincante y que te puedan
+                    dar un “Jaque Mate”.</p>
+            </div>
+        </div>
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Ir al inicio"><img src="../resources/logos/flecha.png"></button>
+    <div id="showDate"></div>
+    <footer>
+        <div class="links">
+            <div class="footer-logo">
+                <a href="../index.html"><img src="../resources/logos/logo-IMT.png"></a>
+            </div>
+            <div class="footer-datos">
+                <ol>
+                    <ul><a href="educDeCalidad.html">4 ODS</a></ul>
+                    <ul><a href="Nosotros.html">SOBRE NOSOTROS</a></ul>
+                    <ul><a href="Productos.html">PRODUCTOS</a></ul>
+                    <ul><a href="loginAgent.html">ADMINISTRACIÓN</a></ul>
+                </ol>
+
+            </div>
+            <div class="footer-contacto">
+                <a href="Contact.html">CONTACTO</a>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="box-redes">
+            <a href=""><img src="../resources/logos/logo-youtube.png" alt="YouTube"></a>
+            <a href=""><img src="../resources/logos/logo-whatssapp.png" alt="Whatssapp"></a>
+            <a href=""><img src="../resources/logos/logo-instagram.png" alt="Instagram"></a>
+            <a href=""><img src="../resources/logos/logo-facebook.png" alt="Facebook"></a>
+        </div>
+    </footer>
+
+    <!--Scripts-->
+    <!--NAVBAR-->
+    <script src="../JS/navbarAnimation.js"></script>
+    <!--LOADER-->
+    <script src="../JS/loader.js"></script>
+    <!--MenuNavbar-->
+    <script src="../JS/menu.js"></script>
+    <!--HOME-BUTTON-->
+    <script src="../JS/homeButton.js"></script>
+    <!--Calendar-->
+    <script src="../JS/calendario.js"></script>
+</body>
+
+</html>

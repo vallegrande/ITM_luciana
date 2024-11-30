@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    background-color: #FFF;
+  }
+  
+  .space-navbar {
+    background-color: #252627;
+    width: 100%;
+    height: 144px;
+    position: relative;
+  }
+  
+  .contact {
+    padding: 120px 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact .box-contact {
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .contact .box-contact .form-contact {
+    background-color: #f5f6f780;
+    border-radius: 20px;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 600px;
+  }
+  
+  .contact .box-contact .form-contact form {
+    width: 420px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+  
+  .contact .box-contact .form-contact form input,
+  .contact .box-contact .form-contact form textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #C5C6C7;
+    font-size: 20px;
+    width: 100%;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+  }
+  
+  .contact .box-contact .form-contact form textarea {
+    resize: none;
+    min-width: 100%;
+    min-height: 100px;
+  }
+  
+  .box-contact .form-contact form button {
+    background-color: #F79C27;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    width: 100px;
+  }
+  
+  .box-contact .form-contact button span {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .box-contact .info-contact {
+    display: inline-block;
+    color: white;
+    height: max-content;
+    padding: 50px;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    background-color: #252627;
+    width: 35%;
+  }
+  
+  .box-contact .info-contact .info-contact-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  .box-contact .logo-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .input__error {
+    width: 100%;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .input__error__show {
+    display: block;
+  }
+  
+  .confirmacion {
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: none;
+  }
+  
+  .confirmacion__show {
+    display: inline;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 1024px) {
+    .contact .box-contact {
+      width: 90%;
+      flex-direction: column;
+    }
+  
+    .contact .box-contact .form-contact,
+    .box-contact .info-contact {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .contact .box-contact .form-contact form {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact {
+      padding: 60px 0;
+    }
+  
+    .contact .box-contact {
+      width: 95%;
+    }
+  
+    .contact .box-contact .form-contact {
+      padding: 30px;
+      height: auto;
+    }
+  
+    .box-contact .info-contact {
+      padding: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    .contact .box-contact .form-contact form input,
+    .contact .box-contact .form-contact form textarea {
+      font-size: 16px;
+    }
+  
+    .box-contact .form-contact form button {
+      width: 80px;
+    }
+  
+    .box-contact .form-contact button span {
+      font-size: 24px;
+    }
+  
+    .box-contact .info-contact .info-contact-title {
+      font-size: 18px;
+    }
+  
+    .box-contact .logo-redes a img {
+      width: 40px;
+    }
+  }

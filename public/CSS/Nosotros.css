@@ -1,0 +1,528 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.space-navbar {
+    background-color: #252627;
+    width: 100%;
+    height: 144px;
+    position: relative;
+}
+
+.portada {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(../resources/img/fondos/fondo-nosotros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45vw;
+}
+
+.titulo {
+    width: 80%;
+    height: 188px;
+    text-align: center;
+    color: black;
+    font-size: clamp(16px, 7.5vw, 94px);
+    font-family: "Brawler", sans-serif;
+    font-weight: 700;
+    line-height: 100px;
+    word-wrap: break-word
+}
+
+.introduccion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252627;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.introduccion-txt {
+    background-color: #48829B;
+    padding: 40px;
+    width: 80%;
+    border: none;
+    border-radius: 30px;
+    text-align: justify;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.menssage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F79C27;
+    padding: 20px 0;
+}
+
+.menssage .menssage-txt {
+    width: 75%;
+    color: black;
+    font-size: 50px;
+    font-family: "Inter";
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.mision-vision {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.vision-box,
+.mision-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+.vision-box img,
+.mision-box img {
+    width: 150px;
+}
+
+.vision-img,
+.mision-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision-vision h2 {
+    color: black;
+    font-size: 48px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.mision-vision p {
+    width: 100%;
+    color: black;
+    font-size: 36px;
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.team {
+    width: 100%;
+    background: url(../resources/img/nosotros-team-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px 0;
+}
+
+.team-title {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.team-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.teams-info {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.432);
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.teams-info .img-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.teams-info .img {
+    width: 350px;
+    height: 350px;
+    border: none;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+
+.teams-info .img img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 50%;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 600px;
+    max-height: 1055px;
+}
+
+.team-info h2 {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.team-info h3 {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.team-info p {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    word-wrap: break-word;
+}
+
+.unete {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 30px;
+    box-sizing: border-box;
+}
+
+.unete-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.unete-txt h2 {
+    width: 100%;
+    color: black;
+    font-size: 64px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    word-wrap: break-word
+}
+
+.unete-txt p {
+    width: 100%;
+    color: black;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.unete-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unete-txt a {
+    width: 70%;
+    padding: 20px 10px;
+    border: 1px solid #F55B5B;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 48px;
+    font-family: "K2D", sans-serif;
+    font-weight: 800;
+    word-wrap: break-word
+}
+
+.unete-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unete-img img {
+    width: 100%;
+}
+
+@media screen and (max-width:470px) {
+    .introduccion-txt {
+        font-size: 17px;
+    }
+
+    .menssage .menssage-txt {
+        font-size: 25px;
+    }
+
+    .mision-vision {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .vision-box,
+    .mision-box {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .mision-vision p {
+        font-size: 20px;
+    }
+
+    .team-title {
+        font-size: 35px;
+    }
+
+    .team-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .teams-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .teams-info .img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team-info h2 {
+        font-size: 30px;
+    }
+
+    .team-info h3 {
+        font-size: 22px;
+    }
+
+    .team-info {
+        justify-content: space-evenly;
+    }
+
+    .team-info p {
+        font-size: 20px;
+    }
+
+    .unete-txt {
+        width: 100%;
+    }
+
+    .unete-txt h2 {
+        font-size: 30px;
+    }
+
+    .unete-txt p {
+        font-size: 22px;
+    }
+
+    .unete-txt a {
+        font-size: 25px;
+    }
+
+    .unete-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .introduccion-txt {
+        font-size: 40px;
+    }
+
+    .menssage .menssage-txt {
+        font-size: 40px;
+    }
+
+    .mision-vision p {
+        font-size: 30px;
+    }
+
+    .teams-info {
+        width: 45%;
+    }
+
+    .team-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .teams-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .unete-txt h2 {
+        font-size: 54px;
+    }
+
+    .unete-txt p {
+        font-size: 30px;
+    }
+
+    .unete-txt a {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .introduccion-txt {
+        font-size: 20px;
+    }
+
+    .menssage .menssage-txt {
+        font-size: 30px;
+    }
+
+    .mision-vision {
+        flex-direction: column;
+    }
+
+    .vision-box,
+    .mision-box {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .mision-vision p {
+        font-size: 24px;
+    }
+
+    .team-title {
+        font-size: 50px;
+    }
+
+    .unete {
+        flex-direction: column;
+    }
+
+    .unete-txt {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .unete-img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .introduccion-txt {
+        font-size: 17px;
+    }
+
+    .menssage .menssage-txt {
+        font-size: 25px;
+    }
+
+    .mision-vision {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .vision-box,
+    .mision-box {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .mision-vision p {
+        font-size: 20px;
+    }
+
+    .team-title {
+        font-size: 35px;
+    }
+
+    .teams-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .teams-info .img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team-info h2 {
+        font-size: 30px;
+    }
+
+    .team-info h3 {
+        font-size: 22px;
+    }
+
+    .team-info {
+        justify-content: space-evenly;
+    }
+
+    .team-info p {
+        font-size: 20px;
+    }
+
+    .unete-txt {
+        width: 100%;
+    }
+
+    .unete-txt h2 {
+        font-size: 30px;
+    }
+
+    .unete-txt p {
+        font-size: 22px;
+    }
+
+    .unete-txt a {
+        font-size: 25px;
+    }
+
+    .unete-img {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+#showDate {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55B5B;
+    padding: 5px 0;
+    display: block;
+    position: fixed;
+    z-index: 98;
+}
+
+#showDate p{
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

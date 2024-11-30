@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.space-navbar {
+    background-color: #252627;
+    width: 100%;
+    height: 144px;
+    position: relative;
+}
+
+.dates {
+    width: 100%;
+    padding: 200px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.dates .menu-tables {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 500px;
+    box-shadow: 0px 0px 10px 15px #adadad;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.dates .menu-tables h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dates .menu-tables form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 350px;
+}
+
+.dates .menu-tables form label {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
+
+.dates .menu-tables form select {
+    height: 30px;
+    background-color: white;
+    border: 1px solid #252627;
+    font-size: 15px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-bottom: 1px solid #252627;
+}
+
+.dates .menu-tables form textarea {
+    resize: none;
+    min-width: 100%;
+    min-height: 100px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #252627;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dates .menu-tables form .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dates .menu-tables form button {
+    font-size: 20px;
+    background-color: #F79C27;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.dates .name-table-container {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.dates .box-dates {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.dates .tables {
+    height: 500px;
+}
+
+.dates .table-container1,
+.table-container2,
+.table-container3 {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-bottom: 2px solid;
+    border-color: #252627;
+}
+
+.dates table {
+    border: none;
+    background-color: #252627;
+    padding: 0;
+    border: transparent;
+    width: 950px;
+    max-height: 800px;
+}
+
+.dates table thead tr th {
+    background-color: #252627;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.dates table tbody {
+    border-bottom: transparent;
+}
+
+.dates table tbody tr td {
+    color: black;
+    background-color: white;
+    border: transparent;
+    padding: 10px;
+    max-width: 250px;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+}
+
+.dates .tables .box-buttons {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.dates .tables .box-buttons .tables-button {
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dates .tables .box-buttons .tables-button a {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 2px;
+    background-color: #adadad;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dates .tables .box-buttons .tables-button a:hover {
+    background-color: #dddddd;
+}
+
+.dates .tables .box-buttons .tables-button a.active {
+    background-color: #98D2EB;
+    color: white;
+}
+
+.table-container2,
+.table-container3 {
+    display: none;
+}

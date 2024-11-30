@@ -1,0 +1,471 @@
+body {
+    margin: 0;
+    background-color: #FFF;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.space-navbar {
+    background-color: #252627;
+    width: 100%;
+    height: 144px;
+    position: relative;
+}
+
+.portada {
+    position: relative;
+    text-align: center;
+    color: black;
+    background-image: url(../resources/img/fondos/fondo-ods4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo {
+    width: 80%;
+    font-size: clamp(16px, 7.5vw, 94px);
+    font-family: "Brawler", sans-serif;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.primera-parte {
+    width: 100%;
+    padding: 30px 0;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grupo {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.introduccion {
+    width: 40%;
+    left: 0;
+    top: 0;
+    text-align: justify;
+    color: black;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+
+.imagen-introduccion {
+    width: 40%;
+    right: 0;
+    top: 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-introduccion img {
+    width: 100%;
+}
+
+.segunda-parte {
+    width: 100%;
+    height: 1977px;
+    position: relative;
+    box-sizing: border-box;
+    color: black;
+    font-size: 24px;
+    font-family: "Baloo Da 2", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.segunda-parte h2 {
+    text-align: center;
+}
+
+.card1 {
+    width: 878px;
+    height: 256px;
+    left: 30px;
+    top: 237px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.card2 {
+    width: 878px;
+    height: 256px;
+    right: 30px;
+    top: 513px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.card3 {
+    width: 878px;
+    height: 256px;
+    left: 30px;
+    top: 789px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.card4 {
+    width: 878px;
+    height: 256px;
+    right: 30px;
+    top: 1065px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.card5 {
+    width: 878px;
+    height: 256px;
+    left: 30px;
+    top: 1341px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.card6 {
+    width: 878px;
+    height: 256px;
+    right: 30px;
+    top: 1617px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.card_int_left {
+    width: 878px;
+    height: 256px;
+    position: relative;
+}
+
+.card_box_left {
+    width: 750px;
+    height: 220px;
+    left: 128px;
+    top: 18px;
+    position: absolute;
+    background: #E1F2FE;
+    box-shadow: 0px, 4px, 4px, rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.card_img_left {
+    width: 256px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.card_text_left {
+    width: 570px;
+    height: 168px;
+    left: 280px;
+    top: 44px;
+    position: absolute;
+    text-align: justify;
+    color: black;
+    font-size: 36px;
+    font-family: Baloo Da 2;
+    font-weight: 400;
+    line-height: 35px;
+    word-wrap: break-word;
+}
+
+
+.card_int_right {
+    width: 878px;
+    height: 256px;
+    position: relative;
+}
+
+.card_box_right {
+    width: 750px;
+    height: 220px;
+    left: 0px;
+    top: 18px;
+    position: absolute;
+    background: #E1F2FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px
+}
+
+.card_img_right {
+    width: 256px;
+    height: 256px;
+    left: 622px;
+    top: 0px;
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.card_text_right {
+    width: 570px;
+    height: 170px;
+    left: 30px;
+    top: 43px;
+    position: absolute;
+    text-align: justify;
+    color: black;
+    font-size: 36px;
+    font-family: Baloo Da 2;
+    font-weight: 400;
+    line-height: 35px;
+    word-wrap: break-word;
+}
+
+.title-carrusel {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.tercera-parte {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #fff;
+}
+
+.carrusel {
+    max-width: 1200px;
+    width: 95%;
+}
+
+.slider-wrapper {
+    position: relative;
+}
+
+.slider-wrapper .slide-button {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    color: #FFF;
+    border: none;
+    outline: none;
+    background: #000;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-wrapper .slide-button:hover {
+    background: #444;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+    left: -20px;
+    display: none;
+}
+
+.slider-wrapper .slide-button#next-slide {
+    right: -20px;
+}
+
+.slider-wrapper .imagen-list {
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10, 1fr);
+    border-radius: 30px;
+}
+
+.slider-wrapper .imagen-list::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-wrapper .carrusel-list .image-items {
+    width: 16%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carrusel .slider-scrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    position: relative;
+    border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+    height: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #000;
+    border-radius: inherit;
+    cursor: grab;
+}
+
+.slider-scrollbar:hover .scrollbar-track:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+
+.videos-section {
+    width: 100%;
+    height: max-content;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos-section .videos-box {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.videos-section .videos-box .videos-title {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    border: none;
+    border-bottom: 3px solid #08425B;
+    margin-bottom: 20px;
+}
+
+.videos-section .videos-box .videos-title h2 {
+    color: #08425B;
+    margin: 0;
+}
+
+.videos-section .videos-box .videos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.video1,
+.video2,
+.video3 {
+    width: 375px;
+}
+
+.videos h3 {
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.videos p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width:470px) {
+    .introduccion {
+        width: 90%;
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .imagen-introduccion {
+        display: none;
+    }
+
+    .videos-section {
+        padding: 0;
+        height: max-content;
+    }
+
+    .videos-section iframe {
+        width: 100%;
+    }
+
+    .videos-section .videos-box {
+        width: 80%;
+        height: max-content;
+    }
+
+    .videos {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+
+    .video1,
+    .video2,
+    .video3 {
+        width: 100%;
+    }
+
+    .carrusel {
+        width: 85%;
+    }
+}

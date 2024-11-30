@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMT Gestión de Datos</title>
+    <link rel="stylesheet" href="../CSS/gestionDatos.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap">
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="../index.html" id="logo"><img src="../resources/logos/logo-IMT.png"></a>
+        <div id="navbar-right">
+            <a href="../index.html">Inicio</a>
+            <a href="Nosotros.html">Nosotros</a>
+            <a href="educDeCalidad.html">Educación de Calidad</a>
+            <a href="Productos.html">Productos</a>
+            <a href="Contact.html">Contactos</a>
+        </div>
+    </nav>
+    <div class="space-navbar"></div>
+    <section class="dates">
+        <div class="box-dates">
+            <div class="menu-tables">
+                <h2>Responder Consulta</h2>
+                <form id="form" action="/regAnswer" method="post">
+                    <label>ID del Usuario</label>
+                    <select name="id_user" id="id_user"></select>
+                    <label>Agente</label>
+                    <select name="id_agent" id="id_agent"></select>
+                    <textarea name="answer" id="answer" placeholder="Respuesta" maxlength="500"></textarea>
+                    <div class="button">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="tables">
+                <h2 class="name-table-container">Consultas registradas</h2>
+                <div class="table-container1" id="table-container1">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>Celular</th>
+                                <th>Gmail</th>
+                                <th>Consulta</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabla-contactos"></tbody>
+                    </table>
+                </div>
+                <div class="table-container2" id="table-container2">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Usuario</th>
+                                <th>Agente</th>
+                                <th>Respuesta</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabla-answer"></tbody>
+                    </table>
+                </div>
+                <div class="table-container3" id="table-container3">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>Celular</th>
+                                <th>Gmail</th>
+                                <th>Consulta</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabla-contactosAll"></tbody>
+                    </table>
+                </div>
+                <div class="box-buttons">
+                    <div class="tables-button">
+                        <a class="active" id="table1">1</a>
+                        <a id="table2" type="button">2</a>
+                        <a id="table3" type="button">3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="links">
+            <div class="footer-logo">
+                <a href="../index.html"><img src="../resources/logos/logo-IMT.png"></a>
+            </div>
+            <div class="footer-datos">
+                <ol>
+                    <ul><a href="educDeCalidad.html">4 ODS</a></ul>
+                    <ul><a href="Nosotros.html">SOBRE NOSOTROS</a></ul>
+                    <ul><a href="Productos.html">PRODUCTOS</a></ul>
+                    <ul><a href="loginAgent.html">ADMINISTRACIÓN</a></ul>
+                </ol>
+            </div>
+            <div class="footer-contacto">
+                <a href="Contact.html">CONTACTO</a>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="box-redes">
+            <a href=""><img src="../resources/logos/logo-youtube.png" alt="YouTube"></a>
+            <a href=""><img src="../resources/logos/logo-whatssapp.png" alt="Whatssapp"></a>
+            <a href=""><img src="../resources/logos/logo-instagram.png" alt="Instagram"></a>
+            <a href=""><img src="../resources/logos/logo-facebook.png" alt="Facebook"></a>
+        </div>
+    </footer>
+
+    <!--Scripts-->
+    <!--Obtener registros Consultas-->
+    <script src="../JS/tablaUser.js"></script>
+    <!--Obtener registros Respuestas-->
+    <script src="../JS/tablaConsultation.js"></script>
+    <!--Obtener todos los registros Consultas-->
+    <script src="../JS/tablaUserAll.js"></script>
+    <!--ObtenerUser-->
+    <script src="../JS/obtenerUser.js"></script>
+    <!--getAgent-->
+    <script src="../JS/getAgent.js"></script>
+    <!--tablesButton-->
+    <script src="../JS/tablesButton.js"></script>
+    <!--NavBar-->
+    <script src="../JS/navbarAnimation.js"></script>
+
+</body>
+
+</html>

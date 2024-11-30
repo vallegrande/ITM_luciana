@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMT Login</title>
+    <link rel="stylesheet" href="../CSS/loginAgent.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/loader.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+</head>
+
+<body>
+    <div class="box-loader" id="loader-box">
+        <div class="loader">
+            <div class="loader-1"></div>
+            <div class="loader-2"></div>
+        </div>
+    </div>
+    <nav id="navbar">
+        <a href="../index.html" id="logo"><img src="../resources/logos/logo-IMT.png"></a>
+        <div id="navbar-right">
+            <a href="../index.html">Inicio</a>
+            <a href="Nosotros.html">Nosotros</a>
+            <a href="educDeCalidad.html">Educación de Calidad</a>
+            <a href="Productos.html">Productos</a>
+            <a href="Contact.html">Contactos</a>
+        </div>
+    </nav>
+    <div class="space-navbar"></div>
+    <section>
+        <div class="box-login">
+            <div class="logo">
+                <img src="../resources/logos/logo-login.png">
+            </div>
+            <h1>Login</h1>
+            <form action="/api/loginAgent" method="post">
+                <label for="">Correo</label>
+                <input name="campoMAI" id="campoMAI" type="email" required>
+                <label for="">Contraseña</label>
+                <input name="campoCON" id="campoCON" type="txt" required>
+                <div class="button">
+                    <button type="submit">Ingresar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="links">
+            <div class="footer-logo">
+                <a href="../index.html"><img src="../resources/logos/logo-IMT.png"></a>
+            </div>
+            <div class="footer-datos">
+                <ol>
+                    <ul><a href="educDeCalidad.html">4 ODS</a></ul>
+                    <ul><a href="Nosotros.html">SOBRE NOSOTROS</a></ul>
+                    <ul><a href="Productos.html">PRODUCTOS</a></ul>
+                    <ul><a href="loginAgent.html">ADMINISTRACIÓN</a></ul>
+                </ol>
+            </div>
+            <div class="footer-contacto">
+                <a href="Contact.html">CONTACTO</a>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="box-redes">
+            <a href=""><img src="../resources/logos/logo-youtube.png" alt="YouTube"></a>
+            <a href=""><img src="../resources/logos/logo-whatssapp.png" alt="Whatssapp"></a>
+            <a href=""><img src="../resources/logos/logo-instagram.png" alt="Instagram"></a>
+            <a href=""><img src="../resources/logos/logo-facebook.png" alt="Facebook"></a>
+        </div>
+    </footer>
+
+    <!--Scripts-->
+    <!--Login-->
+    <script src="../JS/login.js"></script>
+    <!--Loadere-->
+    <script src="../JS/loader.js"></script>
+</body>
+
+</html>
